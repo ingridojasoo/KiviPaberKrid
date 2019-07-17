@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".game">
+
+    <TextView
+        android:id="@+id/gamescore"
+        android:text="@string/gamescore"
+        android:textColor="@color/textBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rock"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:hint="@string/choose_rock"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scissors"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:hint="@string/choose_scissors" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/paper"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:hint="@string/choose_paper"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/highscores"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:hint="@string/highscores"
+            android:onClick="highscores"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textBlack"
+            android:textSize="15dp"
+            android:id="@+id/playerName"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/input"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:tag="input"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textBlack"
+            android:textSize="15dp"
+            android:text="@string/computers_choice"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/output"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+</LinearLayout>
+

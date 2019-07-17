@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kivi-Paber-Käärid</string>
+    <string name="logo">logo</string>
+    <string name="play">PLAY</string>
+    <string name="ent">Enter name</string>
+    <string name="computer_choice">Computer choice</string>
+    <string name="choose_option">Please choose your option!</string>
+    <string name="choose_rock">Choose rock</string>
+    <string name="choose_scissors">Choose scissors</string>
+    <string name="choose_paper">Choose paper</string>
+    <string name="highscores">High score</string>
+    <string name="your_choice">Your choice</string>
+    <string name="computers_choice">Computer choice</string>
+    <string name="gamescore">Game score</string>
+    <string name="Save_score">Save your score!</string>
+    <string name="savescore">SAVE</string>
+    <string name="resume">RESUME</string>
+    <string name="file">Enter your name</string>
+    <string name="save">Save</string>
+    <string name="show">Show</string>
+</resources>
